@@ -1,0 +1,14 @@
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\bin\Debug\net10.0\bpo_1.exe
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\bin\Debug\net10.0\bpo_1.deps.json
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\bin\Debug\net10.0\bpo_1.runtimeconfig.json
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\bin\Debug\net10.0\bpo_1.dll
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\bin\Debug\net10.0\bpo_1.pdb
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.AssemblyInfoInputs.cache
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.AssemblyInfo.cs
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.csproj.CoreCompileInputs.cache
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.dll
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\refint\bpo_1.dll
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.pdb
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\bpo_1.genruntimeconfig.cache
+C:\Users\Nyrka\source\repos\bpo_1\bpo_1\obj\Debug\net10.0\ref\bpo_1.dll
