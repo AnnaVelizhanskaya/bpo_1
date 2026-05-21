@@ -117,31 +117,48 @@ namespace EngMoneyApp
 
     class Program
     {
+        // Метод проверки ввода
+        static int InputPositiveNumber(string message)
+        {
+            int number;
+
+            do
+            {
+                Console.Write(message);
+
+                while (!int.TryParse(Console.ReadLine(), out number))
+                {
+                    Console.WriteLine("Ошибка! Введите целое число.");
+                    Console.Write(message);
+                }
+
+                if (number < 0)
+                {
+                    Console.WriteLine("Ошибка! Отрицательные числа вводить нельзя.");
+                }
+
+            } while (number < 0);
+
+            return number;
+        }
+
         static void Main(string[] args)
         {
             try
             {
-                Console.Write("Введите фунты первой суммы: ");
-                int p1 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Введите шиллинги: ");
-                int s1 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Введите пенсы: ");
-                int pe1 = Convert.ToInt32(Console.ReadLine());
+                // Первая сумма
+                int p1 = InputPositiveNumber("Введите фунты первой суммы: ");
+                int s1 = InputPositiveNumber("Введите шиллинги: ");
+                int pe1 = InputPositiveNumber("Введите пенсы: ");
 
                 EngMoney money1 = new EngMoney(p1, s1, pe1);
 
                 Console.WriteLine();
 
-                Console.Write("Введите фунты второй суммы: ");
-                int p2 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Введите шиллинги: ");
-                int s2 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Введите пенсы: ");
-                int pe2 = Convert.ToInt32(Console.ReadLine());
+                // Вторая сумма
+                int p2 = InputPositiveNumber("Введите фунты второй суммы: ");
+                int s2 = InputPositiveNumber("Введите шиллинги: ");
+                int pe2 = InputPositiveNumber("Введите пенсы: ");
 
                 EngMoney money2 = new EngMoney(p2, s2, pe2);
 
